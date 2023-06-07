@@ -10,7 +10,7 @@ spring:
       on-profile: dev
   datasource:
     password: admin
-    url: jdbc:mysql://localhost:3306/dbmallapp
+    url: jdbc:mysql://localhost:3306/dbinventory_dev
     username: root
   jpa:
     database: MYSQL
@@ -31,7 +31,7 @@ spring:
       on-profile: qa
   datasource:
     password: admin
-    url: jdbc:mysql://localhost:3306/dbmallapp_qa
+    url: jdbc:mysql://localhost:3306/dbinventory_qa
     username: root
   jpa:
     database: MYSQL
@@ -52,7 +52,7 @@ spring:
       on-profile: prod
   datasource:
     password: admin
-    url: jdbc:mysql://localhost:3306/dbmallapp_prod
+    url: jdbc:mysql://localhost:3306/dbinventory_prod
     username: root
   jpa:
     database: MYSQL
